@@ -1,2 +1,12 @@
 ﻿body {
+    background-color: gray;
+    }
+
+
+
+
+.mainSec {
+    padding: 0px,0px,0px,0px;
+    margin: 0px,0px,0px,0px;
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
 }
