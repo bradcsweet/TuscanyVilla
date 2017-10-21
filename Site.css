@@ -16,11 +16,12 @@
     margin:0px;
     padding:0px;
 }
-.container {
+
+.row.formatMargin {
     margin: 60px 0px 60px 50px;
 }
-.container-fluid3 {
-    margin: 60px,75px,60px,0px;
+.row.formatPadding {
+    padding: 60px 50px 50px 60px;
 }
 
 
