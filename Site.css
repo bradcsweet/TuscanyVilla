@@ -5,14 +5,29 @@
     }
 
 .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.row {
+    padding:0px;
+    margin: 0px;
+}
+.column {
+    margin:0px;
+    padding:0px;
+}
+.container {
+    margin: 60px 0px 60px 50px;
+}
+.container-fluid3 {
+    margin: 60px,75px,60px,0px;
 }
 
 
 .jumbotron-fluid{
     margin: 0px,0px,0px,0px;
     padding: 0px,0px,0px,0px;
+    text-align:center;
 }
 /*NAVBAR STYLE*/
 nav#navvy.navbar.navbar-static-top {
@@ -40,17 +55,60 @@ nav#navvy.navbar.navbar-static-top {
     background-size: cover;
     height: 365px;
 }
+.thirdPic {
+    background-image: url('Images/italy-mountain-villa.jpeg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 300px;
+    }
+.fourthPic {
+    background-image: url('Images/modern-villa.jpeg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 300px;
+}
+.fifthPic {
+    background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 300px;
+}
+
+.invertedColors {
+    background-color: #474E5D;
+    color: white;
+}
+.btn.btn-default.invertedBtnColors {
+    background: white;
+    color: #474E5D;
+    border-radius: 0;
+}
+
+.btn.btn-default {
+    background: #474E5D;
+    color: white;
+    border-radius: 0;
+}
+
 
 h1{
     font-size: 60px;
     font-family: 'Open Sans';
 }
 h1,h2,h3,h4,p {
-    text-align:center;
     font-family: 'Open Sans';
 }
-.jumbotron-fluid2 {
-    height: 120px;
-    width: 100%;
+.bannerDivide {
+    height: 140px;
+    padding: 20px;
+    text-align: center;
     background-color:  #474E5D;
+    margin: 0px;
+}
+.bannerDivideLast {
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+    background-color:  #474E5D;
+    margin: 0px;
 }
