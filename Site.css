@@ -19,10 +19,10 @@
     padding: 0px;
 }
 
-.container {
-    align-content: center;
+.container-fluid2 {
+    text-align: center;
     padding: 70px 50px 70px 50px;
-    margin: auto;
+    margin: 0px;
 }
 
 .row.formatMargin {
@@ -33,31 +33,20 @@
     padding: 60px 50px 50px 60px;
 }
 
-.row.formatGrid1 {
-    align-content: center;
-    margin: 60px 50px 0px 50px;
-    padding: 0px;
-    text-align: center;
+.gridTextFormat {
+    padding: 40px 20px 30px 20px;
+    color: #474E5D;
 }
 
-.row.formatGrid2 {
-    align-content: center;
-    margin: 0px 50px 0px 50px;
-    padding: 0px;
-    text-align: center;
+.blueTextBox {
+    background: rgbA(71, 78, 93, 0.75);
+    margin: 150px 90px 150px 90px;
+    padding: 30px;
 }
-
-.row.formatGrid3 {
-    align-content: center;
-    margin: 0px 50px 60px 50px;
-    padding: 0px;    
-    text-align: center;
-}
-
 
 .jumbotron-fluid {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
 }
 /*NAVBAR STYLE*/
@@ -113,40 +102,40 @@ nav#navvy.navbar.navbar-static-top {
     background-image: url('Images/3b-348x348.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 345px;
-    width: 375px;
+    height: 400px;
+    width: 415px;
 }
 
 .seventhPic {
     background-image: url('Images/42-348x348.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 345px;
-    width: 370px;
+    height: 400px;
+    width: 415px;
 }
 
 .eighthPic {
     background-image: url('Images/314-348x348.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 345px;
-    width: 375px;
+    height: 400px;
+    width: 415px;
 }
 
 .ninthPic {
     background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 345px;
-    width: 370px;
+    height: 400px;
+    width: 415px;
 }
 
 .tenthPic {
     background-image: url('Images/Villa-Vanna-231-348x348.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 345px;
-    width: 370px;
+    height: 400px;
+    width: 415px;
 }
 
 
@@ -165,6 +154,15 @@ nav#navvy.navbar.navbar-static-top {
     background: #474E5D;
     color: white;
     border-radius: 0;
+}
+
+.carousel.slide {
+    height: 200px;
+}
+
+textColor {
+    color: #474E5D;
+    background:  #474E5D;
 }
 
 
