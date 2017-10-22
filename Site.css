@@ -2,83 +2,159 @@
     background-color: green;
     font-family: 'Open Sans';
     color: white;
-    }
+}
 
 .container-fluid {
     padding: 0px;
     margin: 0px;
 }
+
 .row {
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
+
 .column {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    align-content: center;
+    padding: 70px 50px 70px 50px;
+    margin: auto;
 }
 
 .row.formatMargin {
     margin: 60px 0px 60px 50px;
 }
+
 .row.formatPadding {
     padding: 60px 50px 50px 60px;
 }
 
+.row.formatGrid1 {
+    align-content: center;
+    margin: 60px 50px 0px 50px;
+    padding: 0px;
+    text-align: center;
+}
 
-.jumbotron-fluid{
-    margin: 0px,0px,0px,0px;
-    padding: 0px,0px,0px,0px;
-    text-align:center;
+.row.formatGrid2 {
+    align-content: center;
+    margin: 0px 50px 0px 50px;
+    padding: 0px;
+    text-align: center;
+}
+
+.row.formatGrid3 {
+    align-content: center;
+    margin: 0px 50px 60px 50px;
+    padding: 0px;    
+    text-align: center;
+}
+
+
+.jumbotron-fluid {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
 }
 /*NAVBAR STYLE*/
 nav#navvy.navbar.navbar-static-top {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right:0px;
+    margin-right: 0px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #474E5D;    
+    background-color: #474E5D;
 }
 
 .navTextFormat {
     font-family: 'Open Sans';
     font-size: 14px;
-    color:white;
+    color: white;
 }
 
 .firstPic {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
-    background-size:cover;
+    background-size: cover;
     height: 365px;
 }
+
 .secondPic {
     background-image: url('Images/Versilia.jpg');
     background-size: cover;
     height: 365px;
 }
+
 .thirdPic {
     background-image: url('Images/italy-mountain-villa.jpeg');
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     height: 300px;
-    }
+}
+
 .fourthPic {
     background-image: url('Images/modern-villa.jpeg');
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     height: 300px;
 }
+
 .fifthPic {
     background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     height: 300px;
 }
+
+.sixthPic {
+    background-image: url('Images/3b-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 375px;
+}
+
+.seventhPic {
+    background-image: url('Images/42-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 370px;
+}
+
+.eighthPic {
+    background-image: url('Images/314-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 375px;
+}
+
+.ninthPic {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 370px;
+}
+
+.tenthPic {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
+    width: 370px;
+}
+
 
 .invertedColors {
     background-color: #474E5D;
     color: white;
 }
+
 .btn.btn-default.invertedBtnColors {
     background: white;
     color: #474E5D;
@@ -92,24 +168,27 @@ nav#navvy.navbar.navbar-static-top {
 }
 
 
-h1{
+h1 {
     font-size: 60px;
     font-family: 'Open Sans';
 }
-h1,h2,h3,h4,p {
+
+h1, h2, h3, h4, p {
     font-family: 'Open Sans';
 }
+
 .bannerDivide {
     height: 140px;
     padding: 20px;
     text-align: center;
-    background-color:  #474E5D;
+    background-color: #474E5D;
     margin: 0px;
 }
+
 .bannerDivideLast {
     height: 200px;
     padding: 30px;
     text-align: center;
-    background-color:  #474E5D;
+    background-color: #474E5D;
     margin: 0px;
 }
