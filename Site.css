@@ -3,6 +3,7 @@
     color: white;
 }
 
+/*GLOBAL STYLE*/
 .container-fluid {
     padding: 0px;
     margin: 0px;
@@ -24,33 +25,19 @@
     margin: 0px;
 }
 
-.row.formatMarginColor {
-    margin: 60px 0px 60px 50px;
-    color: #474E5D;
-
+h1 {
+    font-size: 60px;
+    font-family: 'Open Sans';
 }
 
-.row.formatPadding {
-    padding: 60px 50px 50px 60px;
+h1, h2, h3, h4, p {
+    font-family: 'Open Sans';
 }
 
-.gridTextFormat {
-    padding: 40px 20px 30px 20px;
-    color: #474E5D;
-}
 
-.blueTextBox {
-    background: rgbA(71, 78, 93, 0.75);
-    margin: 150px 90px 150px 90px;
-    padding: 30px;
-}
 
-.jumbotron-fluid {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
 /*NAVBAR STYLE*/
+
 nav#navvy.navbar.navbar-static-top {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -66,6 +53,10 @@ nav#navvy.navbar.navbar-static-top {
     color: white;
 }
 
+
+
+/*MAIN PICTURE JUMBOTRON STYLE*/
+
 .firstPic {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
@@ -77,6 +68,20 @@ nav#navvy.navbar.navbar-static-top {
     background-size: cover;
     height: 365px;
 }
+
+
+/*BANNER/DIVIDER STYLE - FOOTER at bottom of style page*/
+
+.bannerDivide {
+    height: 140px;
+    padding: 20px;
+    text-align: center;
+    background-color: #474E5D;
+    margin: 0px;
+}
+
+
+/*LOCATIONS STYLE*/
 
 .thirdPic {
     background-image: url('Images/italy-mountain-villa.jpeg');
@@ -98,6 +103,29 @@ nav#navvy.navbar.navbar-static-top {
     background-repeat: no-repeat;
     height: 300px;
 }
+
+.row.formatMarginColor {
+    margin: 60px 0px 60px 50px;
+    color: #474E5D;
+}
+
+.row.formatPadding {
+    padding: 60px 50px 50px 60px;
+}
+
+.gridTextFormat {
+    padding: 40px 20px 30px 20px;
+    color: #474E5D;
+}
+
+.invertedColors {
+    background-color: #474E5D;
+    color: white;
+}
+
+
+
+/*AMMENITIES & GRID STYLE*/
 
 .sixthPic {
     background-image: url('Images/3b-348x348.jpg');
@@ -139,11 +167,24 @@ nav#navvy.navbar.navbar-static-top {
     width: 415px;
 }
 
-
-.invertedColors {
-    background-color: #474E5D;
-    color: white;
+.jumbotron-fluid {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
+
+.blueTextBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgbA(71, 78, 93, 0.75);
+    padding: 30px;
+}
+
+
+
+/*BUTTONS STYLE*/
 
 .btn.btn-default.invertedBtnColors {
     background: white;
@@ -158,10 +199,13 @@ nav#navvy.navbar.navbar-static-top {
 }
 
 
-/*CAROUSEL STYLING*/
+
+/*CAROUSEL STYLE*/
+
 .carousel.slide {
     height: 250px;
 }
+
 .carousel-indicators .active {
     background-color: #474E5D;
 }
@@ -172,22 +216,9 @@ nav#navvy.navbar.navbar-static-top {
     padding: 60px 0px 0px 0px;
 }
 
-h1 {
-    font-size: 60px;
-    font-family: 'Open Sans';
-}
 
-h1, h2, h3, h4, p {
-    font-family: 'Open Sans';
-}
 
-.bannerDivide {
-    height: 140px;
-    padding: 20px;
-    text-align: center;
-    background-color: #474E5D;
-    margin: 0px;
-}
+/*CONTACTS STYLE*/
 
 .contactsFormat {
     padding: 60px 30px 60px 30px;
@@ -195,7 +226,10 @@ h1, h2, h3, h4, p {
 }
 
 
-.bannerDivideLast {
+
+/*FOOTER STYLE*/
+
+.bannerFooter {
     height: 200px;
     padding: 30px;
     text-align: center;
