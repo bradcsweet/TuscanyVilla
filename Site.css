@@ -20,6 +20,7 @@
 }
 
 .container-fluid2 {
+    align-content:center;
     text-align: center;
     padding: 70px 50px 70px 50px;
     margin: 0px;
@@ -85,27 +86,27 @@ nav#navvy.navbar.navbar-static-top {
 
 .thirdPic {
     background-image: url('Images/italy-mountain-villa.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
 }
 
 .fourthPic {
     background-image: url('Images/modern-villa.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
 }
 
 .fifthPic {
     background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
 }
 
 .row.formatMarginColor {
-    margin: 60px 0px 60px 50px;
+    padding: 60px 50px 60px 50px;
     color: #474E5D;
 }
 
@@ -113,9 +114,9 @@ nav#navvy.navbar.navbar-static-top {
     padding: 60px 50px 50px 60px;
 }
 
-.gridTextFormat {
-    padding: 40px 20px 30px 20px;
-    color: #474E5D;
+.textBoxMargin {
+    margin: 0px 0px 60px 0px;
+    padding-right: 30px;
 }
 
 .invertedColors {
@@ -180,6 +181,12 @@ nav#navvy.navbar.navbar-static-top {
     transform: translate(-50%, -50%);
     background: rgbA(71, 78, 93, 0.75);
     padding: 30px;
+}
+.gridTextFormat {
+    padding: 40px 20px 30px 20px;
+    color: #474E5D;
+    height:400px;
+    width:415px;
 }
 
 
